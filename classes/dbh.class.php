@@ -1,12 +1,13 @@
 <?php
 
   class Dbh{
-    //change these values to match the data base used later
+    //change these values to match the data base used
     //what iam using is xxamp so here are the defults
     private $host ="localhost";
     private $user ="root";
     private $pwd ="";
-    private $dbName ="simpleloginsystem";//  make a data base and name it here
+    //  make a data base and name it here
+    private $dbName ="simpleloginsystem";
 
     protected function connect(){
       $dsn = 'mysql:host=' . $this->host . ';dbname=' . $this->dbName;
