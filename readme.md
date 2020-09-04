@@ -14,7 +14,7 @@ password varchar(128) not null
 phoneNumber int(15) not null
 address varchar(300) not null
 ```  
-Make sure the table's name is users or you are going to have to head to classes/users.class.php and edit the MySQL queries.  
+Make sure the table's name is users and the field names are the same as mentioned above or you are going to have to head to classes/users.class.php and edit the MySQL queries.   
 
 don't know MySQL?  
 don't worry you can use the following MySQL code to create a table with the structure mentioned above.
