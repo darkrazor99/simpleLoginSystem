@@ -17,7 +17,10 @@
             echo implode($message);
           }
          ?>
+        <label>email</label>
         <input type="text" name="email" value="<?php echo (isset($_POST['email']) ? $_POST['email'] : ''); ?>"  placeholder="email">
+        <br>
+        <label>password</label>
         <input type="password" name="pwd" value="<?php echo (isset($_POST['pwd']) ? $_POST['pwd'] : ''); ?>" placeholder="password">
         <button type="submit" name="login-submit">Login</button>
       </form>
